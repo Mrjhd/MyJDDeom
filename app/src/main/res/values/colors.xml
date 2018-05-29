@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="View_BG">#e6e0e0</color>
+    //加入购物车选中
+    <color name="add_buy">#e7633f</color>
+    <color name="colorRed">#ff0000</color>
+</resources>

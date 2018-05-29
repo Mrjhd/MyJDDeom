@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/liebiao_img"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="8dp"
+        fresco:failureImage="@mipmap/ic_launcher" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/liebiao_name"
+            android:maxLines="2"
+            android:text="cdfd"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/liebiao_price"
+            android:layout_marginTop="5dp"
+            android:maxLines="2"
+            android:text="cdfd"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/liebiao_num"
+            android:maxLines="2"
+            android:layout_marginTop="5dp"
+            android:text="cdfd"/>
+    </LinearLayout>
+</LinearLayout>
